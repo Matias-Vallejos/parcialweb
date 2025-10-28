@@ -14,18 +14,20 @@ body{
 }
 header, main, footer{
     color: #e3e0a3;
+    font-family: 'homepagebaukastenbook';
     padding: 10px 20px 20px;
 }
-main, footer{font-family: 'homepagebaukastenbold';}
 main{
     padding-left: 10%;
     padding-right: 10%;
 }
 
-h2{    
+h2{
+    font-family: 'homepagebaukastenbold';
     letter-spacing: 4px;
 }
 h3{
+    font-family: 'homepagebaukastenbold';
     letter-spacing: 2px;
 }
 

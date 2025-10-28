@@ -3,6 +3,18 @@
 
 
 @font-face {
+    font-family: 'alien_resurrectionregular';
+    src: url('alienresurrection-7oll-webfont.woff2') format('woff2'),
+         url('alienresurrection-7oll-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
     font-family: 'homepagebaukastenbold';
     src: url('homepagebaukasten_bold-webfont.woff2') format('woff2'),
          url('homepagebaukasten_bold-webfont.woff') format('woff');
@@ -15,9 +27,9 @@
 
 
 @font-face {
-    font-family: 'alien_resurrectionregular';
-    src: url('alienresurrection-7oll-webfont.woff2') format('woff2'),
-         url('alienresurrection-7oll-webfont.woff') format('woff');
+    font-family: 'homepagebaukastenbook';
+    src: url('homepagebaukastenbook-webfont.woff2') format('woff2'),
+         url('homepagebaukastenbook-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
