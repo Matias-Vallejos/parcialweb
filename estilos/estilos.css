@@ -3,6 +3,10 @@
 #e3e0a3  #ded72d  #014d01  #2fff2f  shadow
 #6eab25  #3d933c  #151515
 */
+
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
 }
@@ -39,11 +43,12 @@ h1 {
     font-size: 60px;
     text-transform:uppercase;
     text-shadow: 0 -1px 11px #2fff2f;
+    font-family: 'homepagebaukastenbold';
 }
 /*footer*/
 footer {
     background-color: #014d01;
-    height: 300px;
+    height: 330px;
     text-align: center;
 }
 footer img {
