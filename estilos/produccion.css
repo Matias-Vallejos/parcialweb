@@ -1,6 +1,9 @@
 main {
     text-align: center;
 }
+h2,h3{
+    color:#fff64e;
+}
 h2{
     font-size: 2.19rem;
     text-decoration: underline solid 1px;
