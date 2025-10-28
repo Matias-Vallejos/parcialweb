@@ -1,8 +1,10 @@
 main{
     color:#ded72d;
+    text-align: center;
 }
 li{
     margin-top:15px;
+    font-size:1.25rem;
 }
 h2, h3{
     font-size: 2.8rem;
@@ -13,18 +15,14 @@ h3{
     font-size: 1.6rem;
 }
 .premios, h2{
-    text-align: center;
+    
 }
 .subpremios {
     font-size: 1.37rem;
-    text-align: left;
 }
 
-article img {
-    width: 25%;
-}
-.barraabajo {
-    border-bottom: dotted 6px rgb(1, 77, 1);
+main img {
+    width: 50%;
 }
 .impactotexto{
     font-size: 1.56rem;
@@ -37,4 +35,46 @@ li span{
     text-decoration: underline solid 1px ;
     font-size: 1.38rem;
     font-weight: 600;
+}
+main article, #premios {
+    padding:10px;
+    border:dotted 6px rgb(1, 77, 1);
+}
+main{
+    display:grid;
+    grid-template-columns:2fr 2fr 2fr 3fr;
+    grid-template-rows: 0.7fr 0.7fr 1fr;
+    grid-template-areas:
+    "premios premios premios datos"
+    "oscar saturn bafta datos"
+    "impacto impacto impacto datos"
+     ;
+}
+
+#datos{
+    grid-area: datos;
+}
+#premios{
+    grid-area: premios;
+    border-bottom: 0;
+    border-right: 0;
+}
+#oscar, #saturn, #bafta {
+    border-right:dashed 2px rgb(1, 77, 1);
+    border-top:dashed 2px rgb(1, 77, 1);
+}
+#oscar{
+    grid-area: oscar;
+    border-left: dotted 6px rgb(1, 77, 1);
+}
+#saturn{
+    grid-area: saturn;
+}
+#bafta{
+    grid-area: bafta;
+    border-right:0;
+}
+#impacto{
+    grid-area: impacto;
+    border-right:0;
 }

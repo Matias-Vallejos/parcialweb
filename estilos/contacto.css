@@ -9,7 +9,8 @@ form {
   padding: 12px;
 }
 fieldset{
-    border: black 1px solid;
+    border: black 0.5px dashed;
+    margin-bottom: 10px;
 }
 label{
     width: 50%;
