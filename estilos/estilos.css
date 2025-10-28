@@ -16,6 +16,11 @@ header, main, footer{
     padding: 10px 20px 20px;
 }
 
+h2, h3{
+    font-family: 'homepagebaukastenbold';
+    letter-spacing: 4px;
+}
+
 /*header*/
 .derecha{
         text-align: right;
@@ -40,10 +45,11 @@ h1 {
     margin-top: 50px;
     margin-bottom: 0;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     text-transform:uppercase;
     text-shadow: 0 -1px 11px #2fff2f;
-    font-family: 'homepagebaukastenbold';
+    font-family: 'alien_resurrectionregular';
+    letter-spacing: 6px;
 }
 /*footer*/
 footer {

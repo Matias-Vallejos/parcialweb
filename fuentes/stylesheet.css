@@ -10,3 +10,15 @@
     font-style: normal;
 
 }
+
+
+
+
+@font-face {
+    font-family: 'alien_resurrectionregular';
+    src: url('alienresurrection-7oll-webfont.woff2') format('woff2'),
+         url('alienresurrection-7oll-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
