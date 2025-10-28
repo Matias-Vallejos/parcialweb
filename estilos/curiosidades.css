@@ -4,7 +4,6 @@ main{
 }
 li{
     margin-top:15px;
-    font-size:1.25rem;
 }
 h2, h3{
     font-size: 2.8rem;
@@ -13,9 +12,6 @@ h2, h3{
 }
 h3{
     font-size: 1.6rem;
-}
-.premios, h2{
-    
 }
 .subpremios {
     font-size: 1.37rem;
@@ -27,7 +23,7 @@ main img {
 .impactotexto{
     font-size: 1.56rem;
 }
-ul li {
+li{
     font-size: 1.25rem;
 }
 

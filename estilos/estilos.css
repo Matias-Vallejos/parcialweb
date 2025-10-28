@@ -34,6 +34,7 @@ h3{
 /*header*/
 nav {
     display:flex;
+    gap:15px;
     padding-top: 1.5%;
     justify-content: space-between;
 }
@@ -48,10 +49,12 @@ nav a {
 .home {
     padding-top: 0;
     width: 6%;
+    min-width: 100px;
 }
 nav a img {
     padding: 0;
     width: 100%;
+    min-width: 60px;
 }
 .home, .contacto {
     border-right: 0;
@@ -69,7 +72,7 @@ h1 {
 /*footer*/
 footer {
     background-color: #014d01;
-    height: 330px;
+    height: 400px;
     text-align: center;
 }
 footer img {
@@ -116,13 +119,14 @@ footer a{
 .reparto {
     text-align: center;
     border: solid 5px #3d933c;
-    width: 40%;
+    width: 30%;
     margin:35px auto;
     border-radius: 50px 0 50px 0;
     padding: 30px;
     font-size: 1.25rem;
     background-color: #e3e0a3;
     color: #3d933c;
+    min-width: 310px;
 }
 .reparto h2{
     margin-top: 5px;
@@ -131,12 +135,13 @@ footer a{
     color: #151515;
 }
 .reparto img{
-    width: 40%;
+    width: 60%;
     border: solid 1.5px #3d933c;
 }
 .mainReparto {
     display:flex;
     flex-wrap: wrap;
+    gap:10px
 }
 
 /*about*/
