@@ -4,58 +4,102 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
-    <link rel="icon" href="./imagenes/favicon/favicon.svg">
+    <link rel="icon" href="./imagenes/favicon/favicon.svg" />
     <link rel="stylesheet" href="./estilos/estilos.css" />
     <link rel="stylesheet" href="./estilos/contacto.css" />
-    <link rel="stylesheet" href="./fuentes/stylesheet.css">
+    <link rel="stylesheet" href="./fuentes/stylesheet.css" />
   </head>
   <body>
     <header id="header">
-      <nav><a class="home" href="./index.html"
+      <nav>
+        <a class="home" href="./index.html"
           ><img
             src="./imagenes/index/huevo.png"
             alt="Huevo de alien"
             title="Home"
         /></a>
         <div class="derecha">
-        <a href="./about.html">Sobre la película</a>
-        <a href="./reparto.html">Reparto</a>
-        <a href="./produccion.html">Producción</a>
-        <a href="./curiosidades.html">Curiosidades y Premios</a>
-        <a class="contacto" href="./contacto.html">Contacto</a>
+          <a href="./about.html">Sobre la película</a>
+          <a href="./reparto.html">Reparto</a>
+          <a href="./produccion.html">Producción</a>
+          <a href="./curiosidades.html">Curiosidades y Premios</a>
+          <a class="contacto" href="./contacto.html">Contacto</a>
         </div>
       </nav>
       <h1>Contacto</h1>
     </header>
     <main>
-      <article class="consulta">
-        <h2>¿¿Dudas o Consultas??</h2>
-        <p class="borde">Nombre:</p>
-        <p class="borde">Mail:</p>
-        <p class="borde">Consulta:</p>
-        <p class="boton">enviar</p>
-      </article>
+      <form action="./confirmacion.html" class="consulta">
+        <fieldset>
+          <legend>Consultas</legend>
+          <label for="nombre"> Nombre/s:</label><label for="apellido">Apellido/s:</label
+          >
+          <input maxlength="30" minlength="2"
+            type="text"
+            name="nombre"
+            placeholder="Ingrese su nombre"
+            id="nombre"
+            required
+          />
+          <input maxlength="30" minlength="2"
+            type="text"
+            name="apellido"
+            placeholder="Ingrese su apellido"
+            id="apellido"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Ingrese su mail"
+            required
+          /><label for="consulta">Consulta:</label
+          ><textarea
+          autofocus minlength="15"
+            name="consulta"
+            id="consulta"
+            placeholder="Ingrese su consulta"
+            required
+          ></textarea>
+
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
       <section>
-      <p>Redes oficiales de Alien:       
-        <a
-          class="logo"
-          href="https://www.instagram.com/alienanthology"
-          target="_blank"
-          ><img src="./imagenes/contacto/instagram.png" alt="logo de instagram"
-        /></a>
-        <a class="logo" href="https://www.facebook.com/alienpeliculas" target="_blank"
-          ><img src="./imagenes/contacto/facebook.png" alt="logo de facebook"
-        /></a>
-        <a class="logo" href="https://x.com/alienanthology" target="_blank"
-          ><img src="./imagenes/contacto/twitter.png" alt="logo de x"
-        /></a>
-      </p>
+        <p>
+          Redes oficiales de Alien:
+          <a
+            class="logo"
+            href="https://www.instagram.com/alienanthology"
+            target="_blank"
+            ><img
+              src="./imagenes/contacto/instagram.png"
+              alt="logo de instagram"
+          /></a>
+          <a
+            class="logo"
+            href="https://www.facebook.com/alienpeliculas"
+            target="_blank"
+            ><img src="./imagenes/contacto/facebook.png" alt="logo de facebook"
+          /></a>
+          <a class="logo" href="https://x.com/alienanthology" target="_blank"
+            ><img src="./imagenes/contacto/twitter.png" alt="logo de x"
+          /></a>
+        </p>
       </section>
     </main>
     <footer>
-      <div><img src="./imagenes/index/alienletras.png" alt="titulo de la pelicula"></div>
+      <div>
+        <img
+          src="./imagenes/index/alienletras.png"
+          alt="titulo de la pelicula"
+        />
+      </div>
       <a href="#header">
-        <span class="volver">↑ Volver arriba ↑</span>     
+        <span class="volver">↑ Volver arriba ↑</span>
       </a>
       <p>© Matias Vallejos 2025</p>
     </footer>
