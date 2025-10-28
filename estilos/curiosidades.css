@@ -5,18 +5,18 @@ li{
     margin-top:15px;
 }
 h2, h3{
-    font-size: 45px;
+    font-size: 2.8rem;
     color: #6eab25;
     text-transform: uppercase;
 }
 h3{
-    font-size: 26px;
+    font-size: 1.6rem;
 }
 .premios, h2{
     text-align: center;
 }
 .subpremios {
-    font-size: 22px;
+    font-size: 1.37rem;
     text-align: left;
 }
 
@@ -27,13 +27,14 @@ article img {
     border-bottom: dotted 6px rgb(1, 77, 1);
 }
 .impactotexto{
-    font-size: 25px;
+    font-size: 1.56rem;
 }
 ul li {
-    font-size: 20px;}
+    font-size: 1.25rem;
+}
 
 li span{
     text-decoration: underline solid 1px ;
-    font-size: 22px;
+    font-size: 1.38rem;
     font-weight: 600;
 }

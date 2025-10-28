@@ -37,7 +37,7 @@ nav {
 }
 nav a {
     padding: 10px 20px;
-    font-size: 25px;
+    font-size: 1.56rem;
     text-decoration: none;
     text-shadow: 0 -1px 1px #2fff2f;
     color: #014d01;
@@ -58,7 +58,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
-    font-size: 50px;
+    font-size: 3.13rem;
     text-transform:uppercase;
     text-shadow: 0 -1px 11px #2fff2f;
     font-family: 'alien_resurrectionregular';
@@ -76,7 +76,7 @@ footer img {
 }
 footer p {
     text-align: right;
-    font-size: 13px;
+    font-size: 0.81rem;
     color: black;
     margin-bottom: 25px;
 }
@@ -88,7 +88,7 @@ footer p {
 }
 footer a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #e3e0a3;
 }
 
@@ -98,7 +98,7 @@ footer a{
 .poster{
     display: block;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.56rem;
 }
 .poster img {
     width: 25%;
@@ -118,19 +118,23 @@ footer a{
     margin:35px auto;
     border-radius: 50px 0 50px 0;
     padding: 30px;
-    font-size: 20px;
+    font-size: 1.25rem;
     background-color: #e3e0a3;
     color: #3d933c;
 }
 .reparto h2{
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #151515;
 }
 .reparto img{
     width: 40%;
     border: solid 1.5px #3d933c;
+}
+.mainReparto {
+    display:flex;
+    flex-wrap: wrap;
 }
 
 /*about*/
@@ -141,7 +145,7 @@ footer a{
     width:35%;
 }
 .about h2 {
-    font-size: 35px;
+    font-size: 2.12rem;
     color:#3d933c;
     border-top: 3px dotted #3d933c;
     padding: 25px 0 0;
@@ -152,14 +156,14 @@ footer a{
     text-align: center
 }
 .universo h3 {
-    font-size: 25px;
+    font-size: 1.56rem;
     color:#3d933c;
 }
 .about li,.about p{
     color:#6eab25;
 }
 .about p {
-    font-size: 20px;    
+    font-size: 1.25rem;    
 }
 .about li {
     margin-bottom: 8px;
