@@ -115,7 +115,12 @@ footer a{
 
 /*reparto*/
 
-
+main.mainReparto{
+    background-image: url(../imagenes/reparto/background2.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+}
 .reparto {
     text-align: center;
     border: solid 5px #3d933c;
@@ -124,9 +129,11 @@ footer a{
     border-radius: 50px 0 50px 0;
     padding: 30px;
     font-size: 1.25rem;
-    background-color: #e3e0a3;
-    color: #3d933c;
+    background-color: #e3e0a398;
+    color: #0f240f;
+    text-shadow: 0 0px 1px #2fff2f;
     min-width: 310px;
+    font-weight: 600;
 }
 .reparto h2{
     margin-top: 5px;
