@@ -34,9 +34,10 @@ li span{
 }
 main article, #premios {
     padding:10px;
-    border:dotted 6px rgb(1, 77, 1);
+    border:dotted 8px rgb(1, 77, 1);
+    
 }
-main{
+.gridCuriosid{
     display:grid;
     grid-template-columns:2fr 2fr 2fr 3fr;
     grid-template-rows: 0.7fr 0.7fr 1fr;
@@ -56,12 +57,12 @@ main{
     border-right: 0;
 }
 #oscar, #saturn, #bafta {
-    border-right:dashed 2px rgb(1, 77, 1);
-    border-top:dashed 2px rgb(1, 77, 1);
+    border-right:dashed 1.5px rgb(1, 77, 1);
+    border-top:dashed 1.5px rgb(1, 77, 1);
 }
 #oscar{
     grid-area: oscar;
-    border-left: dotted 6px rgb(1, 77, 1);
+    border-left: dotted 8px rgb(1, 77, 1);
 }
 #saturn{
     grid-area: saturn;
