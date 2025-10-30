@@ -56,8 +56,17 @@
             id="email"
             placeholder="Ingrese su mail"
             required
-          /> </fieldset><label for="consulta">Consulta:</label
-          ><textarea
+          /> </fieldset>
+          <label for="consulta">Consulta:</label
+          ><select name="tipo" id="tipo" required>
+            <option value="" selected disabled>Seleccioná el tipo de consulta</option>
+            <option value="pelicula">Pelicula</option>
+            <option value="juegos">Juegos</option>
+            <option value="contacto">Contacto</option>
+            <option value="sugerencias">Sugerencias</option>
+            <option value="otros">Otros</option>
+          </select>
+          <textarea
           autofocus minlength="15"
             name="consulta"
             id="consulta"

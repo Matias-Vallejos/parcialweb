@@ -22,13 +22,17 @@ label {
   display: inline-block;
   font-size: 1.5rem;
 }
-input:invalid,textarea:invalid{border:solid 1px red}
-input:valid,textarea:valid{border:solid 1px green}
+input:invalid,textarea:invalid, select:invalid{
+  border:solid 1px red
+}
+input:valid,textarea:valid, select:valid{
+  border:solid 1px green
+}
 legend{
     font-weight: bold;
 }
 input,
-textarea {
+textarea, select {
   display: inline-block;
   margin: 10px 0;
   font-size: 1.5rem;
