@@ -46,7 +46,6 @@ nav {
     align-items: center;
     gap:15px;
     justify-content: space-between;
-    height: 85px;
     margin-left: 25px;
 }
 nav a {
@@ -120,6 +119,7 @@ footer a{
 }
 .poster img {
     width: 25%;
+    min-width: 350px;
     border: solid 1px rgb(32, 32, 32);
 }
 .poster figcaption{
@@ -209,4 +209,31 @@ main.mainReparto{
 }
 .alien, .cronologia, .predator{
     border: solid 1px rgb(32, 32, 32);
+}
+
+/*confirmacion*/
+.confirmacion{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:700px;
+
+}
+.confirmacion section{
+    text-align: center;
+}
+.confirmacion img{
+    display: inline-block;
+    width: 15%;
+    min-width: 100px;
+    margin-bottom: 3%;
+}
+.confirmacion .texto
+{
+    background-color: #014d01;
+    width: fit-content;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: auto;    
 }

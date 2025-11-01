@@ -76,6 +76,7 @@ main article, #premios {
     border-right:0;
 }
 #oscar, #saturn, #bafta{
+    
     display:flex;
     flex-direction: column;
     align-items: center;
