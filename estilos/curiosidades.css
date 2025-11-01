@@ -18,7 +18,7 @@ h3{
 }
 
 main img {
-    width: 50%;
+    width: 75%;
 }
 .impactotexto{
     font-size: 1.56rem;
@@ -40,7 +40,7 @@ main article, #premios {
 .gridCuriosid{
     display:grid;
     grid-template-columns:2fr 2fr 2fr 3fr;
-    grid-template-rows: 0.7fr 0.7fr 1fr;
+    grid-template-rows: 0.5fr 0.9fr 1fr;
     grid-template-areas:
     "premios premios premios datos"
     "oscar saturn bafta datos"
@@ -74,4 +74,11 @@ main article, #premios {
 #impacto{
     grid-area: impacto;
     border-right:0;
+}
+#oscar, #saturn, #bafta{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    padding: 5px;
 }
