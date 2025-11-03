@@ -12,11 +12,9 @@ fieldset{
     border: black 0.5px dashed;
     margin-bottom: 10px;
 }
-label{
-    width: 50%;
-}
-#nombre, #apellido{
-    width: 49.15%;
+.caja{
+  display: flex;
+  justify-content: space-between;
 }
 label {
   display: inline-block;
