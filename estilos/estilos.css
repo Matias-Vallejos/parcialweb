@@ -237,3 +237,14 @@ main.mainReparto{
     padding: 1rem;
     margin: auto;    
 }
+
+/*404*/
+.error{
+    text-align: center;
+}
+.error h1 {
+    font-size: 2rem;
+}
+.error img{
+    width: 25%;
+}
