@@ -11,6 +11,8 @@
 body{
     background-color: black;
     margin: 0;
+    display:flex;
+    flex-direction: column;
 }
 header, main, footer{
     color: #e3e0a3;
@@ -84,12 +86,12 @@ h1 {
 /*footer*/
 footer {
     background-color: #014d01;
-    height: 400px;
     text-align: center;
 }
 footer img {
     width: 70%;
     display: inline-block;
+    margin-bottom: 10px;
 }
 footer p {
     text-align: right;

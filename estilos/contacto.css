@@ -12,14 +12,19 @@ fieldset{
     border: black 0.5px dashed;
     margin-bottom: 10px;
 }
-.caja{
-  display: flex;
+.caja {
+  display:flex;
+  gap:5px;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
+
 label {
   display: inline-block;
   font-size: 1.5rem;
 }
+
 input:invalid,textarea:invalid, select:invalid{
   border:solid 1px red
 }
