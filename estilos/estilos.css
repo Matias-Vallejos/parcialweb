@@ -127,10 +127,10 @@ footer a{
 /*index*/
 
 
-.poster{
+.poster figure{
     display: block;
     text-align: center;
-    font-size: 1.56rem;
+    font-size: 1.1rem;
 }
 .poster img {
     width: 25%;

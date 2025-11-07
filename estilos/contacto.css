@@ -1,5 +1,5 @@
-main {
-  font-size: 2.12rem;
+main form, main section{
+  font-size: 1.5rem;
 }
 form {
   width: 65%;
