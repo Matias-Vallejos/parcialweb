@@ -17,8 +17,49 @@ main p, .textoRodaje{
 .produccion img {
     width: 35%;
 }
-.rodaje img{
-    height: 350px;
-    margin-right: 19px;
-    margin-bottom: 10px;
+
+div{
+    display:flex;
+}
+.fotos {
+    figure{
+        margin: 0;
+        width:33%;
+        padding:5px;
+    }
+    figcaption{
+        margin: 10px 0;
+    }
+    img {
+        width: 40%;
+    }
+}
+.hover{
+    margin:0;
+    width: 50%;
+    padding: 5px;
+}
+.rodaje .hover {
+    justify-self: center;
+}
+.ocultar {
+    opacity: 0;
+    font-size:1px;
+    color: black;
+}
+.hover:hover{
+    
+    .ocultar{
+        font-size: 1.25rem;
+        opacity: 1;
+        color: #e3e0a3;
+        transition: opacity 1.5s ease;
+        transition:font-size 0.5s ease;
+        transition: color 2s ease-in-out;
+
+    };
+    img {
+        width: 100%;
+        transition: width 1.5s ease;
+    }
 }
