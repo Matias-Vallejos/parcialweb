@@ -44,22 +44,23 @@ main div{
 }
 .ocultar {
     opacity: 0;
-    font-size:1px;
+    font-size:0rem;
     color: black;
+    transition: opacity 1.5s ease;
+    transition:font-size 2.5s ease;
+    transition: color 2s ease-in-out;
+}
+.hover img {
+    transition: width 1.5s ease;
 }
 .hover:hover{
     
     .ocultar{
         font-size: 1.25rem;
         opacity: 1;
-        color: #e3e0a3;
-        transition: opacity 1.5s ease;
-        transition:font-size 0.5s ease;
-        transition: color 2s ease-in-out;
-
+        color: #e3e0a3;    
     };
     img {
-        width: 100%;
-        transition: width 1.5s ease;
+        width: 100%; 
     }
 }
