@@ -43,14 +43,14 @@ header{
     padding-top: 0;
 }
 nav {
-    padding: 10px 20px 0;
+    padding: 10px 10px 5px;
     display:flex;
     align-items: center;
     gap:15px;
     justify-content: space-between;
     margin-left: 25px;
 }
-nav a {
+nav a, #panel a {
     padding: 10px 20px;
     font-size: 1.56rem;
     text-decoration: none;
@@ -78,7 +78,7 @@ nav a img {
 }
 h1 {
     color: #e3e0a3;
-    margin-top: 1%;
+    margin-top: 3%;
     margin-bottom: 1%;
     text-align: center;
     font-size: 2rem;
@@ -287,6 +287,9 @@ main.mainReparto{
         padding-left: 3%;
         padding-right: 3%;
     }
+    nav{
+        margin-left: 0;
+    }
     h1 {
     font-size: 1.5rem;
     }
@@ -315,6 +318,55 @@ main.mainReparto{
     }
 }
 
+/*menu hamburguesa*/
+#panel {
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+    right: -1000px;
+    top:8.2vh;
+    transition: right .7s ease;
+    z-index: 10;
+    background-color: black;
+    border:#014d01 3px solid;
+}
+#panel a {
+    border-top:#014d01 3px solid;
+    font-size: 1.3rem;
+}
+#panel .notop {
+    border-top:none;
+}
+#panel:target{
+    right:0;
+}
+#hamburguesa, #cancel {
+    display:none;
+    width: 8%;
+    padding: 0;
+    border: none;
+}
+nav #hamburguesa img, nav #cancel img {
+    min-width: 40px;
+}
+
+@media (max-width:850px) {
+    .derecha{
+        display: none;
+    }
+
+    #hamburguesa{
+        display: inline-block;
+    }
+}
+
+#panel:target ~ header nav #hamburguesa{
+        display:none
+}
+#panel:target ~ header nav #cancel{
+        display:inline-block;
+}
+
 
 @media (max-width:700px) {
     /*general*/
@@ -324,6 +376,9 @@ main.mainReparto{
     main {
         padding-left: 2.5%;
         padding-right: 2.5%;
+    }
+    nav{
+        padding-right: 20px;
     }
     h1 {
     font-size: 1.2rem;
