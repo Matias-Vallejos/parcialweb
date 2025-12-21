@@ -64,6 +64,44 @@ button:hover {
 }
 .logo img {
   width: 7%;
+  min-width: 50px;
   margin-left: 2%;
   vertical-align: middle;
+}
+
+@media (max-width:1000px) {
+    form {
+      width: 80%;
+    }
+}
+
+@media (max-width:700px) {
+  form {
+      width: 90%;
+    }
+  main span {
+    display: block;
+    margin-bottom: 8px;
+  }
+}
+@media (max-width:450px) {
+    form {
+      width: 80%;
+    }
+    input,
+textarea, select {
+  font-size: 1rem;
+}
+select{
+  font-size: 0.8rem;
+}
+input, select{
+  width:100%;
+}
+label {
+  font-size: 1.2rem;
+}
+legend{
+  font-size: 1.4rem;
+}
 }
